@@ -1,0 +1,39 @@
+#app__header {
+  color: var(--color-white);
+  display: flex;
+  padding: 5rem 5rem;
+}
+
+#app__header .header-content {
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+  justify-content: center;
+}
+
+#app__header .header-content input {
+  background: var(--color-golden);
+  width: 10rem;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  border: none;
+}
+
+#app__header .header-content p {
+  font-size: 1.2rem;
+}
+
+#app__header .header-content h1 {
+  font-size: 5rem;
+  color: var(--color-golden);
+  padding: 3rem 0;
+}
+
+#app__header .header-image {
+  width: 50rem;
+}
+
+#app__header .header-image img {
+  width: 100%;
+}
