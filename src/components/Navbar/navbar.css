@@ -1,0 +1,44 @@
+#app__navbar nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: var(--color-white);
+  padding-top: 1rem;
+}
+
+#app__navbar nav .app__navbar-logo {
+  width: 8rem;
+}
+
+#app__navbar nav .app__navbar-logo img {
+  width: 100%;
+}
+
+#app__navbar nav .app__navbar-login a {
+  color: var(--color-white);
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+#app__navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  color: var(--color-white);
+  justify-content: space-between;
+}
+
+#app__navbar nav ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#app__navbar nav ul li a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
