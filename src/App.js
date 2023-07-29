@@ -1,12 +1,15 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Header from "./containers/Header/Header";
+import { AboutUs, Header } from "./containers";
+import { Navbar } from "./components";
+import SpecialMenu from "./containers/Menu/SpecialMenu";
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
       <Header />
+      <AboutUs />
+      <SpecialMenu />
     </div>
   );
 }

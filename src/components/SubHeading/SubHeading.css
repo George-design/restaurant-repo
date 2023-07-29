@@ -1,0 +1,4 @@
+#app__subheading p {
+  font-size: 5rem;
+  color: var(--color-golden);
+}

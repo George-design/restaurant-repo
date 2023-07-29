@@ -1,5 +1,6 @@
 import React from "react";
 import images from "../../constants/images";
+import "./SubHeading.css";
 
 const SubHeading = ({ title }) => {
   return (
