@@ -1,0 +1,79 @@
+#app__specialMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#app__specialMenu .app__specialMenu-header #app__subheading p {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+#app__specialMenu .app__specialMenu-header h1 {
+  font-size: 4rem;
+  color: var(--color-golden);
+}
+
+#app__specialMenu .app__specialMenu-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app__specialMenu .app__specialMenu-content .specialMenu-wine h3 {
+  font-size: 2rem;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#app__specialMenu .app__specialMenu-content .specialMenu-wine {
+  padding: 3rem 3rem;
+}
+
+#app__specialMenu .app__specialMenu-content .specialMenu-cocktails {
+  padding: 3rem 3rem;
+}
+
+#app__specialMenu .app__specialMenu-content .specialMenu-cocktails h3 {
+  font-size: 2rem;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#app__specialMenu .app__specialMenu-content .specialMenu-image {
+  width: 30rem;
+  height: 30rem;
+}
+
+#app__specialMenu
+  .app__specialMenu-content
+  .specialMenu-image
+  .specialMenu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+
+#app__specialMenu
+  .app__specialMenu-content
+  .specialMenu-image
+  .specialMenu-button
+  button {
+  padding: 0.5rem 1.5rem;
+  background: var(--color-white);
+  border: none;
+}
+
+#app__specialMenu .app__specialMenu-content .specialMenu-image img {
+  width: 100%;
+  height: 100%;
+}
