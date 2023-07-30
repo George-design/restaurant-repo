@@ -1,0 +1,52 @@
+#app__chef {
+  display: grid;
+  grid-template-columns: 40rem 45rem;
+  padding: 10rem 5rem;
+}
+
+#app__chef .chef-image {
+  width: 30rem;
+}
+
+#app__chef .chef-image img {
+  width: 100%;
+}
+
+#app__chef .chef-content {
+  padding: 0 3rem 0 0;
+}
+
+#app__chef .chef-content .chef-content-center p {
+  font-size: 1.2rem;
+  color: var(--color-white);
+  margin: 5rem 0;
+}
+
+#app__chef .chef-content .chef-content-center p img {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+#app__chef .chef-content .chef-content-footer img {
+  width: 20rem;
+}
+
+#app__chef .chef-content .chef-content-footer #kevin {
+  font-size: 1.5rem;
+  color: var(--color-golden);
+}
+
+#app__chef .chef-content .chef-content-footer p {
+  font-size: 1rem;
+  color: var(--color-white);
+}
+
+#app__chef .chef-content .chef-content-header #app__subheading p {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+#app__chef .chef-content .chef-content-header h1 {
+  font-size: 4rem;
+  color: var(--color-golden);
+}
