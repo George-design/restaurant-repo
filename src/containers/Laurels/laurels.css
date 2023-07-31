@@ -1,0 +1,63 @@
+#app__laurels {
+  padding: 5rem 5rem;
+}
+
+#app__laurels .laurels-header h1 {
+  font-size: 4rem;
+  color: var(--color-golden);
+}
+
+#app__laurels .laurels-header #app__subheading p {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+#app__laurels .laurels-content {
+  display: grid;
+  grid-template-columns: 50rem 30rem;
+}
+
+#app__laurels .laurels-content .laurels-content-image {
+  width: 30rem;
+}
+
+#app__laurels .laurels-content .laurels-content-image img {
+  width: 100%;
+}
+
+#app__laurels .laurels-content .laurels-content-content {
+  display: grid;
+  grid-template-columns: 20rem 20rem;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  padding: 10rem 0;
+}
+
+#app__laurels .laurels-content .laurels-content-image img {
+  width: 100%;
+}
+
+.app__laurels-award-card {
+  display: flex;
+  /* border: 1px solid green; */
+}
+
+.app__laurels-award-card .laurels-award-card-content #title {
+  color: var(--color-golden);
+  font-size: 1.5rem;
+}
+
+.app__laurels-award-card .laurels-award-card-content #subtitle {
+  color: var(--color-white);
+  font-size: 1.2rem;
+}
+
+.app__laurels-award-card .laurels-award-card-image {
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.app__laurels-award-card .laurels-award-card-image img {
+  width: 100%;
+}
