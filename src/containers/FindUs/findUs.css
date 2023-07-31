@@ -1,0 +1,53 @@
+#app__findus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 10rem;
+}
+
+#app__findus .app__findUs-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#app__findus .app__findUs-content button {
+  padding: 0.5rem 1.5rem;
+  background: var(--color-white);
+  color: var(--color-black);
+  border: none;
+  margin-top: 1rem;
+  width: fit-content;
+}
+
+#app__findus .app__findUs-content h1 {
+  font-size: 4rem;
+  color: var(--color-golden);
+  margin-bottom: 1rem;
+}
+
+#app__findus .app__findUs-content p {
+  font-size: 1rem;
+  color: var(--color-white);
+}
+
+#app__findus .app__findUs-content .app__findUs-content-wrapper h6 {
+  font-size: 2rem;
+  color: var(--color-golden);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#app__findus .app__findUs-content #app__subheading p {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+#app__findus .app__findUs-image {
+  width: 40rem;
+  padding-left: 10rem;
+}
+
+#app__findus .app__findUs-image img {
+  width: 100%;
+}
