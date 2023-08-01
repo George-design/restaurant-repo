@@ -6,6 +6,7 @@ import Chef from "./containers/Chef/Chef";
 import Laurels from "./containers/Laurels/Laurels";
 import Gallery from "./containers/Gallery/Gallery";
 import FindUs from "./containers/FindUs/FindUs";
+import Footer from "./containers/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Laurels />
       <Gallery />
       <FindUs />
+      <Footer />
     </div>
   );
 }

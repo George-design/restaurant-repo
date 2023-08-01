@@ -1,0 +1,101 @@
+#app__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+#app__footer .app__footer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  padding: 3rem 0 0.5rem 0;
+}
+
+#app__footer .app__footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+#app__footer .app__footer-copyright p {
+  color: var(--color-white);
+  font-size: 0.9rem;
+}
+
+#app__footer .app__footer-footer .footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+
+#app__footer .app__footer-footer .footer-contact h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#app__footer .app__footer-footer .footer-contact p {
+  font-size: 1rem;
+  color: var(--color-white);
+  margin: 0.4rem 0;
+}
+
+#app__footer .app__footer-footer .footer-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  padding: 0 10rem;
+}
+
+#app__footer .app__footer-footer .footer-socials p {
+  font-size: 1rem;
+  color: var(--color-white);
+}
+
+#app__footer .app__footer-footer .footer-socials .footer_social-media {
+  font-size: 1.5rem;
+}
+
+#app__footer .app__footer-footer .footer-socials .footer_social-media .socials {
+  margin: 0rem 1rem;
+}
+
+#app__footer .app__footer-footer .footer-socials #gericht {
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+
+#app__footer .app__footer-footer .footer-socials #spoon {
+  width: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+#app__footer .app__footer-footer .footer-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+
+#app__footer .app__footer-footer .footer-time h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#app__footer .app__footer-footer .footer-time div {
+  margin: 0 0 0.5rem 0;
+}
+
+#app__footer .app__footer-footer .footer-time p {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
